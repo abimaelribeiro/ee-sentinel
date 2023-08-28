@@ -14,8 +14,8 @@ Map.addLayer(img, { bands: ['B4', 'B3', 'B2'], min: 1285, max: 2736 }, 'Sentinel
 
 Export.image.toDrive({
     image: img,
-    folder: 'ee/mosaico/indices',
-    description: 'ee-sentinel-ndwi-indice',
+    folder: 'ee/mosaico',
+    description: 'ee-sentinel-mosaic',
     region: table,
     scale: 10,
     crs: 'EPSG:31980',
